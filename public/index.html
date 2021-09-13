@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi página</title>
+</head>
+<body>
+ 
+    <h1>Bienvenidos </h1>
+ 
+    <form method="post" action="api/productos/guardar" style="margin:20px;">
+        <fieldset>
+            <legend>Datos de la Persona</legend>
+            Nombre:<input name="title" type="text">
+            Precio:<input name="price" type="number">
+            Foto<input name="thumbnail" type="text">
+        </fieldset>    
+        <input type="submit" value="Grabar Persona">
+    </form>
+</body>
+</html>
